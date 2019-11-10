@@ -30,7 +30,7 @@
 			function draw(x,y){
 					ctx.beginPath();
 					console.log("Drawing")
-					ctx.arc(x, y, 10, 0, 2 * Math.PI)
+					ctx.arc(x - (canvas.offsetLeft + 5), y - (canvas.offsetTop + 5), 10, 0, 2 * Math.PI);
 				    ctx.fill();
 					}
 
